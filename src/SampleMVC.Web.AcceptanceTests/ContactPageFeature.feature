@@ -7,5 +7,5 @@
 Scenario: Add two numbers
 	Given I navigated to the contact page
 	Then I see
-		| Field         | Rule   | Value   |
+		| Field         | Rule   | Value    |
 		| Content Title | equals | Contact. |
