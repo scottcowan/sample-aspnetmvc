@@ -14,9 +14,9 @@ namespace SampleMVC.Web.AcceptanceTests
         [Given(@"I navigated to the contact page")]
         public void GivenINavigatedToTheContactPage()
         {
-            var address = ConfigurationManager.AppSettings["Url"];
-            Console.WriteLine(address);
-            new WebClient().DownloadString(address);
+            //var address = ConfigurationManager.AppSettings["Url"];
+            //Console.WriteLine(address);
+            //new WebClient().DownloadString(address);
         }
 
         [Then(@"I see")]
